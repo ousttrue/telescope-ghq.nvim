@@ -109,7 +109,7 @@ M.list = function(opts)
           end
           return {'cat', doc}
         end
-        return {'echo', ''}
+        return nil
       end,
     },
     sorter = conf.file_sorter(opts),
